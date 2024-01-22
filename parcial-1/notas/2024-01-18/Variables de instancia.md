@@ -1,0 +1,1 @@
+Todas las variables definidas dentro de una clase se llaman variables de instancia (también conocidas como propiedades o atributos); el nombre viene del término instancia, que para efectos prácticos es sinónimo de "objeto".

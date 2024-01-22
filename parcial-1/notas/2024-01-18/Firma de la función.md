@@ -1,0 +1,1 @@
+El valor de retorno y la lista de tipos para los parámetros de la función se conoce como firma; en un archivo de C++, no pueden existir dos funciones con el mismo nombre y la misma firma (lo que quiere decir que es posible tener funciones con el mismo nombre pero diferente firma)

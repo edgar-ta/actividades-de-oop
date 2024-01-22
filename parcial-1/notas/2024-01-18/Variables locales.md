@@ -1,0 +1,1 @@
+Las variables locales son aquellas que solo viven en el bloque donde se definieron

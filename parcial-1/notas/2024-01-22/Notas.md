@@ -1,0 +1,1 @@
+Una de las características más importantes de la metodología orientada a objetos es la herencia; el ejercicio que hemos estado llevando sobre el `Punto`, `Circulo` y `Cilindro` sirve para ejercitar ese concepto.
