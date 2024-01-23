@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c83736dcf20471fd",
+        "id": "4f1917bdfcac3a59",
         "type": "tabs",
         "children": [
           {
-            "id": "e75c2cd26f062f8b",
+            "id": "09cb79e207a893d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59b2e928284b2cc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa9db069ed8b3ac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/Mínimo y Máximo de una Array. README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,11 +138,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59b2e928284b2cc0",
+  "active": "ada66eb3429ac4d2",
   "lastOpenFiles": [
+    "parcial-1/notas/2024-01-12/obtener-el-minimo-y-maximo-de-una-array-de-enteros.drawio.png",
+    "parcial-1/notas/2024-01-12/calcular-el-promedio-de-una-array-de-enteros.drawio.png",
+    "parcial-1/notas/2024-01-12/calcular-el-promedio-de-una-array-de-enteros.drawio",
+    "parcial-1/notas/2024-01-12/obtener-el-minimo-y-maximo-de-una-array-de-enteros.drawio",
+    "parcial-1/notas/2024-01-12/obtener-el-minimo-y-maximo-de-una-array-de-enteros.png",
+    "parcial-1/notas/2024-01-12/Calcular el mayor y menor de una array de números.md",
+    "parcial-1/notas/2024-01-12/calcular-el-promedio-de-una-array-de-enteros--con-fondo.png",
+    "parcial-1/notas/2024-01-12/calcular-el-promedio-de-una-array-de-enteros.png",
+    "parcial-1/notas/2024-01-12/obtener-el-promedio-de-una-array-de-enteros.drawio",
+    "parcial-1/notas/2024-01-15-y-anteriores/WhatsApp Image 2024-01-17 at 6.46.56 PM.jpeg",
+    "parcial-1/notas/2024-01-15-y-anteriores/WhatsApp Image 2024-01-17 at 6.46.57 PM.jpeg",
+    "parcial-1/notas/2024-01-18/Variables locales.md",
+    "parcial-1/notas/2024-01-18/Variables de instancia.md",
+    "parcial-1/notas/2024-01-18/Puntero.md",
+    "parcial-1/notas/2024-01-18/Notas.md",
+    "parcial-1/notas/2024-01-18/Firma de la función.md",
+    "parcial-1/notas/2024-01-19/Notas.md",
+    "parcial-1/notas/2024-01-22/Notas.md",
+    "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
     "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/main.exe",
     "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/Mínimo y Máximo de una Array. README.md",
-    "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
     "parcial-1/proyectos/5-figuras-geometricas--herencia/Figuras Geométricas -- Herencia. README.md",
     "README.md",
     "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
@@ -185,13 +170,8 @@
     "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/main.exe",
     "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/main.cpp",
     "parcial-1/proyectos/figuras-geometricas--herencia/bin/punto.o",
-    "parcial-1/proyectos/figuras-geometricas--herencia/bin/figura-geometrica.o",
-    "parcial-1/proyectos/figuras-geometricas--herencia/bin/circulo.o",
-    "parcial-1/proyectos/figuras-geometricas--herencia/bin/cilindro.o",
-    "parcial-1/proyectos/figuras-geometricas--herencia/bin/punto.exe",
     "parcial-1/proyectos/figuras-geometricas/Figuras Geométricas. README.md",
     "parcial-1/proyectos/figuras-geometricas--herencia/Figuras Geométricas -- Herencia. README.md",
-    "parcial-1/notas/2024-01-12/Calcular el mayor y menor de una array de números.md",
     "parcial-1/2024-01-22/Notas.md",
     "parcial-1/2024-01-18/figuras-geometricas/README.md",
     "parcial-1/2024-01-19/Notas.md",
