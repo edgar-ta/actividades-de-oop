@@ -9,7 +9,7 @@ class Circulo : public Punto {
 
     public:
     Circulo(int x, int y, int radio): Punto(x, y), radio(radio) {}
-    virtual void imprimir() override;
+    void imprimir();
     float obtener_perimetro();
     float obtener_area();
 };

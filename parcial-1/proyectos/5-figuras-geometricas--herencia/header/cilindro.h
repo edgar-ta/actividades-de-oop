@@ -12,8 +12,10 @@ class Cilindro : public Circulo {
     public:
     Cilindro(int x, int y, int radio, int altura): Circulo(x, y, radio), altura(altura) {}
 
-    void imprimir() override;
+    void imprimir();
     float obtener_volumen();
+    float obtener_perimetro();
+    float obtener_area();
 };
 
 #endif
