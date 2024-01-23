@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59b2e928284b2cc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa9db069ed8b3ac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/Mínimo y Máximo de una Array. README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
+                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
+                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md"
+                "file": "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md"
               }
             }
           }
@@ -146,10 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e75c2cd26f062f8b",
+  "active": "59b2e928284b2cc0",
   "lastOpenFiles": [
+    "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/main.exe",
     "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/Mínimo y Máximo de una Array. README.md",
+    "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/Mínimo y máximo, y promedio de una array con clases. README.md",
+    "parcial-1/proyectos/5-figuras-geometricas--herencia/Figuras Geométricas -- Herencia. README.md",
+    "README.md",
     "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
+    "parcial-1/proyectos/3-minimo-y-maximo-y-promedio-de-una-array-con-clases/main.cpp",
+    "parcial-1/proyectos/2-promedio-de-una-array/main.exe",
     "parcial-1/proyectos/2-promedio-de-una-array/main.cpp",
     "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/main.exe",
     "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/main.cpp",
@@ -158,8 +189,6 @@
     "parcial-1/proyectos/figuras-geometricas--herencia/bin/circulo.o",
     "parcial-1/proyectos/figuras-geometricas--herencia/bin/cilindro.o",
     "parcial-1/proyectos/figuras-geometricas--herencia/bin/punto.exe",
-    "parcial-1/proyectos/figuras-geometricas--herencia/bin/figura-geometrica.exe",
-    "parcial-1/proyectos/figuras-geometricas--herencia/bin/circulo.exe",
     "parcial-1/proyectos/figuras-geometricas/Figuras Geométricas. README.md",
     "parcial-1/proyectos/figuras-geometricas--herencia/Figuras Geométricas -- Herencia. README.md",
     "parcial-1/notas/2024-01-12/Calcular el mayor y menor de una array de números.md",
@@ -171,7 +200,6 @@
     "parcial-1/2024-01-18/Variables locales.md",
     "parcial-1/2024-01-18/Firma de la función.md",
     "parcial-1/2024-01-18/Variables de instancia.md",
-    "README.md",
     "Untitled.canvas",
     "parcial-1/2024-01-12/Calcular el mayor y menor de una array de números.md"
   ]
