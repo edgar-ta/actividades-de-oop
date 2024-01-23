@@ -3,3 +3,5 @@
 /parcial-2/proyectos/*/bin/*
 /parcial-3/proyectos/*/bin/*
 
+*.exe
+

@@ -97,6 +97,10 @@ Una posible implementación (que omite la implementación de las tres funciones 
 #include <iostream>
 #include <cstdlib>
 
+void obtener_array_del_usuario(int array[], int n);
+int obtener_maximo(const int array[], int n); 
+int obtener_minimo(const int array[], int n);
+
 int main() {
   int n = 10;
   int array[n];

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3c6dcb31558054bd",
+        "id": "c83736dcf20471fd",
         "type": "tabs",
         "children": [
           {
-            "id": "7748c6cd9d384e7d",
+            "id": "e75c2cd26f062f8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "parcial-1/proyectos/figuras-geometricas/README.md",
+                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "parcial-1/proyectos/figuras-geometricas/README.md",
+                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "parcial-1/proyectos/figuras-geometricas/README.md",
+                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "parcial-1/proyectos/figuras-geometricas/README.md"
+                "file": "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md"
               }
             }
           }
@@ -146,19 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7748c6cd9d384e7d",
+  "active": "e75c2cd26f062f8b",
   "lastOpenFiles": [
-    "parcial-1/proyectos/figuras-geometricas--herencia/README.md",
-    "parcial-1/proyectos/figuras-geometricas--herencia/main.exe",
-    "parcial-1/proyectos/figuras-geometricas--herencia/main.cpp",
-    "parcial-1/proyectos/figuras-geometricas--herencia/src/punto.cpp",
-    "parcial-1/proyectos/figuras-geometricas--herencia/src/circulo.cpp",
-    "parcial-1/proyectos/figuras-geometricas--herencia/src/cilindro.cpp",
-    "parcial-1/proyectos/figuras-geometricas--herencia/src",
-    "parcial-1/proyectos/figuras-geometricas--herencia/header/punto.h",
-    "parcial-1/proyectos/figuras-geometricas--herencia/header/figura-geometrica.h",
-    "parcial-1/proyectos/figuras-geometricas--herencia/header/circulo.h",
-    "parcial-1/proyectos/figuras-geometricas--herencia/header/cilindro.h",
+    "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/Mínimo y Máximo de una Array. README.md",
+    "parcial-1/proyectos/2-promedio-de-una-array/Promedio de una Array. README.md",
+    "parcial-1/proyectos/2-promedio-de-una-array/main.cpp",
+    "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/main.exe",
+    "parcial-1/proyectos/1-minimo-y-maximo-de-una-array/main.cpp",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/punto.o",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/figura-geometrica.o",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/circulo.o",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/cilindro.o",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/punto.exe",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/figura-geometrica.exe",
+    "parcial-1/proyectos/figuras-geometricas--herencia/bin/circulo.exe",
+    "parcial-1/proyectos/figuras-geometricas/Figuras Geométricas. README.md",
+    "parcial-1/proyectos/figuras-geometricas--herencia/Figuras Geométricas -- Herencia. README.md",
+    "parcial-1/notas/2024-01-12/Calcular el mayor y menor de una array de números.md",
     "parcial-1/2024-01-22/Notas.md",
     "parcial-1/2024-01-18/figuras-geometricas/README.md",
     "parcial-1/2024-01-19/Notas.md",
