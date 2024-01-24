@@ -1,0 +1,1 @@
+Es cuando de una [[Clase|clase]] hereda los [[Atributo|atributos]] y [[Método|métodos]] a otras clases, de esta forma evitando repetir código.

@@ -1,0 +1,1 @@
+Seleccionar cuales de nuestros [[Atributo|atributos]] y [[Método|métodos]] van a ser privados y no tener acceso a todos ellos y no alterar su comportamiento interno.

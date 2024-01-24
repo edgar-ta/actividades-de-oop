@@ -1,0 +1,1 @@
+|Es la [[Clase|clase]] que [[Herencia|hereda]] (es decir, que recibe) [[Método|métodos]] y [[Atributo|atributos]] de otra clase.
