@@ -1,6 +1,6 @@
 El propósito de este proyecto es conjugar la funcionalidad [[Promedio de una Array. README|del proyecto del promedio]] y del [[Mínimo y Máximo de una Array. README|mínimo y máximo]] en uno solo, poniendo las funciones auxiliares en una clase llamada `Array` que guarda registro de sus elementos y la cantidad de los mismos, en dos variables privadas llamadas `valores` y `n`, respectivamente; el equivalente de la función `obtener_array_del_usuario` debería ser un miembro estático de `Array`, y además debería haber una función llamada `imprimir` que muestre los valores de `Array` en pantalla. `Array` debería tener un [[Constructor|constructor]] que tome `n` e inicialice la memoria para los valores, así como un [[Destructor|destructor]] que libere la memoria de sus `valores` al final del programa. El programa en `main` debería ser una llamada a imprimir a una variable `Array` de 10 elementos obtenida por una llamada a `obtener_array_del_usuario`.
 
-La información de las [[Firma de la función|firmas]] de los métodos de `Array` se condensa en el siguiente diagrama y snippet:
+La información de las [[Firma de la función|firmas]] de los métodos de `Array` se condensa en el siguiente diagrama y [[Snippet|snippet]]:
 
 ```mermaid
 classDiagram

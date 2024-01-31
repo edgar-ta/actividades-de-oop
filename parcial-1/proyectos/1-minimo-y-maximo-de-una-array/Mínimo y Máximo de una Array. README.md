@@ -1,4 +1,4 @@
-Este proyecto tiene como propósito crear un programa que le pida al usuario una array de 10 enteros y obtenga los valores mínimo y máximo de dicha array, imprimiéndolos, por supuesto, después de haberlos obtenido. Para ello se deberá hacer uso de tres funciones: una que obtenga una array de enteros de la entrada del usuario, y dos que obtengan los números mayor y menor de esa array, respectivamente; un snippet de la [[Firma de la función|firma de las funciones]] es dado a continuación:
+Este proyecto tiene como propósito crear un programa que le pida al usuario una array de 10 enteros y obtenga los valores mínimo y máximo de dicha array, imprimiéndolos, por supuesto, después de haberlos obtenido. Para ello se deberá hacer uso de tres funciones: una que obtenga una array de enteros de la entrada del usuario, y dos que obtengan los números mayor y menor de esa array, respectivamente; un [[Snippet|snippet]] de la [[Firma de la función|firma de las funciones]] es dado a continuación:
 
 ```cpp
 void obtener_array_del_usuario(int array[], int n);

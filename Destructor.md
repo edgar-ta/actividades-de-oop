@@ -1,0 +1,1 @@
+Es la antítesis del [[Constructor|constructor]]; se trata de un [[Método|método]] que permite liberar los recursos de un [[Objeto|objeto]] una vez que ya no son necesarios para el programa

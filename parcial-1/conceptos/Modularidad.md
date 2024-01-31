@@ -1,1 +1,1 @@
-Hacer un programa por medio de varias [[Clases|clases]] que se comuniquen entre si y cada clase debe tener control propio dentro de ella y tener los [[Método|métodos]] adecuados para poder ser utilizada desde fuera.
+Hacer un programa por medio de varias [[Clase|clases]] que se comuniquen entre si y cada clase debe tener control propio dentro de ella y tener los [[Método|métodos]] adecuados para poder ser utilizada desde fuera.
