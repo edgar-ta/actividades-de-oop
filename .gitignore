@@ -3,7 +3,9 @@
 /parcial-2/proyectos/*/bin/*
 /parcial-3/proyectos/*/bin/*
 
+.vscode/
 *.exe
+*.o
 /.obsidian
 __github-token.md
 
