@@ -31,5 +31,3 @@ class Rectangulo {
 };
 
 #endif // !RECTANGULO_H
-
-

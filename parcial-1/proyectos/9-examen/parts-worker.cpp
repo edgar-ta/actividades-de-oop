@@ -22,6 +22,3 @@ PartsWorker* PartsWorker::construct_from_user_input(std::ostream &cout, std::ist
   std::cout << "El sueldo semanal del trabajador es: $" << parts_worker->get_weekly_wage() << std::endl;
   return parts_worker;
 }
-
-
-

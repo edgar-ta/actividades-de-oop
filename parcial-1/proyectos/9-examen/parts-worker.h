@@ -25,5 +25,3 @@ class PartsWorker : public Employee {
 
 
 #endif // !PARTS_WORKER_H
-
-

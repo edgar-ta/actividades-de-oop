@@ -17,4 +17,3 @@ float Cilindro::obtener_perimetro() {
 float Cilindro::obtener_area() {
   return 2 * Circulo::obtener_area() + Circulo::obtener_perimetro() * altura;
 }
-

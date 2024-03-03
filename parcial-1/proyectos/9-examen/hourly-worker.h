@@ -22,8 +22,9 @@ class HourlyWorker : public Employee {
 
     float get_weekly_wage() override;
     static HourlyWorker* construct_from_user_input(std::ostream&, std::istream&);
+    
+    void __construct_from_user_input(std::ostream&, std::istream&);
 };
 
 
 #endif // !HOURLY_WORKER_H
-

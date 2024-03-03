@@ -1,0 +1,1 @@
+La interfaz de una clase se refiere al conjunto de entidades que se vuelven disponibles al usuario (en este caso, otro programador) que la utiliza; en otras palabras, es el conjunto de atributos y métodos que aparecen de forma `pública`.

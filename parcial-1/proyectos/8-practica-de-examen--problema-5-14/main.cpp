@@ -5,6 +5,11 @@
 #include <string>
 #include <vector>
 
+inline std::vector<ItemCount> get_item_counts(const std::vector<Item> items);
+void print_introductory_message();
+float get_total_cost(const std::vector<ItemCount>& item_counts);
+void print_item_count_summary(const std::vector<ItemCount>& item_counts);
+
 struct Item {
   float unitary_price;
   std::string name;
@@ -17,43 +22,16 @@ struct Item {
 };
 
 struct ItemCount {
-  const Item* item;
+  const Item item;
   uint32_t count;
 
-  ItemCount(const Item* item, uint32_t count): 
+  ItemCount(const Item item, uint32_t count): 
     item(item), count(count) 
   {}
 
-  ItemCount(): item(nullptr), count(0) {}
+  ItemCount(): count(0) {}
 };
 
-inline std::vector<ItemCount> get_item_counts(const std::vector<Item> items) {
-  std::vector<ItemCount> item_counts(0);
-  for (auto i = 0; i < items.size(); i++) {
-    items.at();
-    item_counts.push_back(ItemCount(items.data() + i, 0));
-  }
-  return item_counts;
-}
-
-void print_introductory_message() {
-  std::cout << "Ingrese el número de producto a comprar y la cantidad deseada para calcular el total a pagar" << std::endl;
-}
-
-float get_total_cost(const std::vector<ItemCount>& item_counts) {
-  float total_cost = 0;
-  for (auto& item_count: item_counts) {
-    total_cost += item_count.count * item_count.item->unitary_price;
-  }
-  return total_cost;
-}
-
-void print_item_count_summary(const std::vector<ItemCount>& item_counts) {
-  for (auto& item_count: item_counts) {
-    std::cout << "\"" << item_count.item->name << "\"" << " ... $" << item_count.item->unitary_price << " (" << item_count.count << ")" << std::endl;
-  }
-  std::cout << "El total hasta ahora es: $" << get_total_cost(item_counts) << std::endl;
-}
 
 int main (int argc, char *argv[]) {
   const std::vector<Item> items {
@@ -101,4 +79,29 @@ int main (int argc, char *argv[]) {
   return EXIT_SUCCESS;
 }
 
+inline std::vector<ItemCount> get_item_counts(const std::vector<Item> items) {
+  std::vector<ItemCount> item_counts(0);
+  for (auto i = 0; i < items.size(); i++) {
+    item_counts.push_back(ItemCount(items.at(i), 0));
+  }
+  return item_counts;
+}
 
+void print_introductory_message() {
+  std::cout << "Ingrese el número de producto a comprar y la cantidad deseada para calcular el total a pagar" << std::endl;
+}
+
+float get_total_cost(const std::vector<ItemCount>& item_counts) {
+  float total_cost = 0;
+  for (auto& item_count: item_counts) {
+    total_cost += item_count.count * item_count.item.unitary_price;
+  }
+  return total_cost;
+}
+
+void print_item_count_summary(const std::vector<ItemCount>& item_counts) {
+  for (auto& item_count: item_counts) {
+    std::cout << "\"" << item_count.item.name << "\"" << " ... $" << item_count.item.unitary_price << " (" << item_count.count << ")" << std::endl;
+  }
+  std::cout << "El total hasta ahora es: $" << get_total_cost(item_counts) << std::endl;
+}

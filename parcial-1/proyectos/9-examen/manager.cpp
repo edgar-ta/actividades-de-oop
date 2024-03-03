@@ -14,4 +14,3 @@ Manager* Manager::construct_from_user_input(std::ostream& cout, std::istream& ci
   Manager* manager = new Manager(wage);
   return manager;
 }
-

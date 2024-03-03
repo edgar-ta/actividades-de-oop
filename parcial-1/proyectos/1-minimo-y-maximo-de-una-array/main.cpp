@@ -5,6 +5,21 @@ void obtener_array_del_usuario(int array[], int n);
 int obtener_maximo(const int array[], int n);
 int obtener_minimo(const int array[], int n);
 
+int main() {
+  int n = 10;
+  int array[n];
+  
+  std::cout << "Ingrese " << n << " números enteros para obtener los valores máximo y mínimo" << std::endl;
+  obtener_array_del_usuario(array, n);
+
+  int maximo = obtener_maximo(array, n);
+  int minimo = obtener_minimo(array, n);
+
+  std::cout << "El valor máximo es: " << maximo << std::endl;
+  std::cout << "El valor mínimo es: " << minimo << std::endl;
+
+  return EXIT_SUCCESS;
+}
 
 void obtener_array_del_usuario(int array[], int n) {
   for (int i = 0; i < n; i++) {
@@ -34,21 +49,5 @@ int obtener_minimo(const int array[], int n) {
     if (valor < minimo) minimo = valor;
   }
   return minimo;
-}
-
-int main() {
-  int n = 10;
-  int array[n];
-  
-  std::cout << "Ingrese " << n << " números enteros para obtener los valores máximo y mínimo" << std::endl;
-  obtener_array_del_usuario(array, n);
-
-  int maximo = obtener_maximo(array, n);
-  int minimo = obtener_minimo(array, n);
-
-  std::cout << "El valor máximo es: " << maximo << std::endl;
-  std::cout << "El valor mínimo es: " << minimo << std::endl;
-
-  return EXIT_SUCCESS;
 }
 

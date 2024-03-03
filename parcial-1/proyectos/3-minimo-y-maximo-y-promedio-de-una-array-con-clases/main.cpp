@@ -17,6 +17,13 @@ class Array {
     static Array obtener_array_del_usuario(std::size_t n);
 };
 
+int main() {
+  Array array = Array::obtener_array_del_usuario(10);
+  array.imprimir();
+
+  return EXIT_SUCCESS;
+}
+
 Array::Array(std::size_t n): n(n), valores(new int[n]) {}
 
 Array::~Array() {
@@ -73,11 +80,3 @@ void Array::imprimir() {
   std::cout << "\tEl mínimo es: " << obtener_minimo() << std::endl;
   std::cout << "Fin de la impresión de la `Array`" << std::endl;
 }
-
-int main() {
-  Array array = Array::obtener_array_del_usuario(10);
-  array.imprimir();
-
-  return EXIT_SUCCESS;
-}
-

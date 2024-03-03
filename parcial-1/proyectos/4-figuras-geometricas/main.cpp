@@ -5,6 +5,18 @@
 #include "header/circulo.h"
 #include "header/cilindro.h"
 
+int main() {
+    Cilindro cilindro(3, 4, 3, 2);
+    cilindro.imprimir();
+
+    std::cout << "El perímetro es: "    << cilindro.obtener_perimetro() << std::endl;
+    std::cout << "El área es: "         << cilindro.obtener_area()      << std::endl;
+    std::cout << "El volumen es: "      << cilindro.obtener_volumen()   << std::endl;
+
+    return EXIT_SUCCESS;
+}
+
+
 class Circulo2 {
     protected:
     Punto centro;
@@ -80,19 +92,19 @@ class WordContainer {
     }
 };
 
-int main() {
-    std::string something = "Hello world there is something going on here";
-    const WordContainer container(something);
-    for (auto word: container) {
-        std::cout << word << std::endl;
-    }
+// int main() {
+//     std::string something = "Hello world there is something going on here";
+//     const WordContainer container(something);
+//     for (auto word: container) {
+//         std::cout << word << std::endl;
+//     }
 
-    // Cilindro cilindro(3, 4, 3, 2);
-    // cilindro.imprimir();
+//     // Cilindro cilindro(3, 4, 3, 2);
+//     // cilindro.imprimir();
 
-    // std::cout << "El perímetro es: "    << cilindro.obtener_perimetro() << std::endl;
-    // std::cout << "El área es: "         << cilindro.obtener_area()      << std::endl;
-    // std::cout << "El volumen es: "      << cilindro.obtener_volumen()   << std::endl;
+//     // std::cout << "El perímetro es: "    << cilindro.obtener_perimetro() << std::endl;
+//     // std::cout << "El área es: "         << cilindro.obtener_area()      << std::endl;
+//     // std::cout << "El volumen es: "      << cilindro.obtener_volumen()   << std::endl;
 
-    return EXIT_SUCCESS;
-}
+//     return EXIT_SUCCESS;
+// }

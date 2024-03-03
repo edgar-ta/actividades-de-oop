@@ -20,4 +20,3 @@ class Manager : public Employee {
 };
 
 #endif
-

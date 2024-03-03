@@ -18,5 +18,3 @@ public:
 };
 
 #endif // !PYTHAGOREAN_TRIPLET_FINDER_H
-
-

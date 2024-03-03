@@ -7,5 +7,3 @@ class Employee {
 };
 
 #endif // !EMPLOYEE_H
-
-

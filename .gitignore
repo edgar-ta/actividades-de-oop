@@ -3,9 +3,12 @@
 /parcial-2/proyectos/*/bin/*
 /parcial-3/proyectos/*/bin/*
 
-.vscode/
+.vscode
 *.exe
 *.o
-/.obsidian
+.obsidian
 __github-token.md
-
+*.png
+*.jpg
+*.svg
+*.pdf
