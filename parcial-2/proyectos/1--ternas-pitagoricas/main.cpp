@@ -5,4 +5,3 @@ int main() {
   PythagoreanTripletFinder::find_triplets();
   return EXIT_SUCCESS;
 }
-

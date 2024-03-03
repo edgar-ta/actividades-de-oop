@@ -48,5 +48,7 @@ std::string zero_pad_with_two_digits(int value) {
 }
 
 std::string Time::to_string() {
-  return zero_pad_with_two_digits(horas) + ":" + zero_pad_with_two_digits(minutos) + ":" + zero_pad_with_two_digits(segundos);
+  return zero_pad_with_two_digits(horas) 
+    + ":" + zero_pad_with_two_digits(minutos) 
+    + ":" + zero_pad_with_two_digits(segundos);
 }

@@ -28,4 +28,3 @@ public:
 std::ostream& operator<<(std::ostream& cout, const Interlocutor& interlocutor);
 
 #endif // __INTERLOCUTOR_H__
-

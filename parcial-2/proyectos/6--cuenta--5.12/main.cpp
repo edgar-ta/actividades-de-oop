@@ -12,8 +12,14 @@ int main() {
         Cuenta::transferir(origen, destino, 100);
     }
 
-    std::cout << "El saldo de la cuenta de origen es: $" << origen.obtener_saldo() << std::endl;
-    std::cout << "El saldo de la cuenta de destino es: $" << destino.obtener_saldo() << std::endl;
+    std::cout 
+        << "El saldo de la cuenta de origen es: $" 
+        << origen.obtener_saldo() 
+        << std::endl;
+    std::cout 
+        << "El saldo de la cuenta de destino es: $" 
+        << destino.obtener_saldo() 
+        << std::endl;
 
     return EXIT_SUCCESS;
 }

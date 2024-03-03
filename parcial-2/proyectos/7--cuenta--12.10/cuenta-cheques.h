@@ -11,7 +11,7 @@ class CuentaCheques : public Cuenta {
     CuentaCheques(
         double saldo_inicial = 0.0, 
         bool* es_error = nullptr, 
-        double cuota_por_transaccion
+        double cuota_por_transaccion = 0.0
     );
 
     // retirar

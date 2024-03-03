@@ -10,7 +10,7 @@ class CuentaAhorros : public Cuenta {
     CuentaAhorros(
         double saldo_inicial = 0.0, 
         bool* es_error = nullptr, 
-        double tasa_de_interes
+        double tasa_de_interes = 0.0
     );
 
     double calcular_interes();

@@ -1,22 +1,5 @@
 #include "./cuenta-cheques.h"
 
-class CuentaCheques : public Cuenta {
-    double cuota_por_transaccion;
-
-    public:
-
-    CuentaCheques(
-        double saldo_inicial = 0.0, 
-        bool* es_error = nullptr, 
-        double cuota_por_transaccion
-    );
-
-    // retirar
-    bool cargar(double cantidad);
-    // añadir
-    void abonar(double cantidad);
-};
-
 CuentaCheques::CuentaCheques(
     double saldo_inicial, 
     bool* es_error, 
